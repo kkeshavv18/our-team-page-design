@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #ededed;
+  /* this removes horizontal scroll bar  */
+  overflow-x: hidden;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #b73e3e;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+p {
+  color: #dd5353;
+  font-weight: 800;
+}
+
+/* image  */
+img {
+  width: 100%;
+  height: 150px;
+}
+.card-image {
+  object-fit: contain;
+  height: 200px;
+}
+
+/* Our teams Cards  */
+
+.our-team-section {
+  background-color: #dd5353;
+  padding: 3% 5%;
+}
+.card {
+  background-color: #ededed;
+  margin-bottom: 4%;
+  box-shadow: 0px 5px 10px rgb(2, 2, 49);
+  width: 18rem;
+  padding: 5px;
+}
+
+.card-text {
+  color: #ededed;
+  font-weight: 500;
+}
+
+.card-title {
+  color: #b73e3e;
+  font-weight: 700;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+  background-color: black;
+}
+@media screen and (max-width: 650px) {
+  .row {
+    flex-direction: column;
+  }
+}
